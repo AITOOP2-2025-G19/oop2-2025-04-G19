@@ -1,6 +1,6 @@
 # 学籍番号と名前を書くと作業番号を書く
 #リーダー k24128 古澤天翔
-#業者1
+#業者1 K24091 高宮千聖
 #作業者2 x24006 井手和海
 #作業者3 k24062 輿水遥人
 # 変数名関数名はsampleから
@@ -11,8 +11,9 @@
 
 # 2の返り値を3で使用する関数名 text
 
-def record_audio() -> None:
 
-def preprocess_audio() -> str:
+record_audio()
 
-def transcription_save(text) -> None:
+preprocess_audio()
+
+transcription_save(text)
