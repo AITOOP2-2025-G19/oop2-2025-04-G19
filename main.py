@@ -10,6 +10,9 @@
 # 3 ファイル名:transcription_save.py クラス名:transcription_save
 
 # 2の返り値を3で使用する関数名 text
+from record_audio import record_audio
+from whisper_interp import preprocess_audio
+from transcription_save import transcription_save
 
 
 record_audio()
