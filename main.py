@@ -2,8 +2,14 @@
 
 # 変数名関数名はsampleから
 
-# 1 ファイル名:record_audio.py 関数名:record_audio
-# 2 ファイル名:whisper_interp.py 関数名:preprocess_audio
-# 3 ファイル名:transcription_save.py 関数名:transcription_save
+# 1 ファイル名:record_audio.py クラス名:record_audio
+# 2 ファイル名:whisper_interp.py クラス名:preprocess_audio
+# 3 ファイル名:transcription_save.py クラス名:transcription_save
 
 # 2の返り値を3で使用する関数名 text
+
+def record_audio() -> None:
+
+def preprocess_audio() -> chr:
+
+def transcription_save(text) -> None:
