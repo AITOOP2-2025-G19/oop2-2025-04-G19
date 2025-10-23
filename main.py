@@ -10,6 +10,6 @@
 
 def record_audio() -> None:
 
-def preprocess_audio() -> chr:
+def preprocess_audio() -> str:
 
 def transcription_save(text) -> None:
