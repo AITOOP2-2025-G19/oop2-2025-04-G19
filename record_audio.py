@@ -1,7 +1,7 @@
 import ffmpeg
 import time
 
-class record_audio:
+def record_audio():
     # 録音時間（秒）
     duration = 10
     # 出力ファイル名
