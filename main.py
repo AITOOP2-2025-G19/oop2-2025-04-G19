@@ -19,4 +19,4 @@ record_audio.record_audio()
 
 text = whisper_interp.preprocess_audio()
 
-#transcription_save.transcription_save(text)
+transcription_save.transcription_save(text)
