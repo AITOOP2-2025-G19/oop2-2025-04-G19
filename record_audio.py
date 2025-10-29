@@ -1,7 +1,7 @@
 import ffmpeg
 import time
 
-class record_audio:
+def record_audio():
     # 録音時間（秒）
     duration = 10
     # 出力ファイル名
@@ -21,7 +21,7 @@ class record_audio:
             .output(output_file, acodec='pcm_s16le', ar='44100', ac=1)
             .run(overwrite_output=True)
         )
-        print(f"録音が完了しました。{output_file}に保存されました。");
+        print(f"録音が完了しました。{output_file}に保存されました。")
 
     except ffmpeg.Error as e:
         print(f"エラーが発生しました: {e.stderr.decode()}")

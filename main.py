@@ -5,18 +5,18 @@
 #作業者3 k24062 輿水遥人
 # 変数名関数名はsampleから
 
-# 1 ファイル名:record_audio.py クラス名:record_audio
-# 2 ファイル名:whisper_interp.py クラス名:preprocess_audio
-# 3 ファイル名:transcription_save.py クラス名:transcription_save
+# 1 ファイル名:record_audio.py 関数名:record_audio
+# 2 ファイル名:whisper_interp.py 関数名:preprocess_audio
+# 3 ファイル名:transcription_save.py 関数名:transcription_save
 
 # 2の返り値を3で使用する関数名 text
-from record_audio import record_audio
-from whisper_interp import preprocess_audio
-from transcription_save import transcription_save
+import record_audio 
+import whisper_interp 
+import transcription_save
 
 
-record_audio()
+record_audio.record_audio()
 
-preprocess_audio()
+text = whisper_interp.preprocess_audio()
 
-transcription_save(text)
+transcription_save.transcription_save(text)
